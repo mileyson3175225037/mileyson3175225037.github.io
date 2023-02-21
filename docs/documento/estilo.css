@@ -348,15 +348,7 @@
     display: none;
   }
 
-/* arriva de este cometerio va normalize css */
-.{
-    box-sizing: border-box;
-    
-}
-   
-
-
-
+ /*arriva esta todo el codigo de normalize*/
 
 body {
 
@@ -372,7 +364,6 @@ header {
     background-size:cover ;   
     width: 100%;
     margin: 0%;
-   
     padding-top: 10px;
     text-align: center;
 }
@@ -389,6 +380,7 @@ header {
     height: auto;
     margin: 0%;
     padding: 10px;
+    
 }
 
 
@@ -400,24 +392,24 @@ header {
 }
 
 .lis1 {
-     margin-left:auto ;
-     margin-right: auto;
-     height: 150px;
-     margin-top: 10px;
-     width: 200px;
-     padding-top: 0PX;
+    margin-left:auto ;
+    margin-right: auto;
+    height: 150px;
+    margin-top: 10px;
+    width: 200px;
+    padding-top: 0PX;
      
      
      
 }
 
 .lis2 {
- margin-left: auto;
- margin-right: auto;
- height: 180px;
- margin-top: 10px;
- width: 200px;
- padding-top: 0PX;
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+    margin-top: 10px;
+    width: 200px;
+    padding-top: 0PX;
  
 }
 
@@ -476,6 +468,11 @@ a {
 h2 {
     text-align: center;
     font-size: 30px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
 }
 
 .peineta {
