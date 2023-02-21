@@ -112,7 +112,7 @@ p {
     height: auto;
     width: 100%;
     display: flex;
-   
+    position: relative;
 }
 
 .tetero{
