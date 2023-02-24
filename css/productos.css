@@ -183,7 +183,15 @@ span{
     .productos{
         background-color: black;
     }
+
+    .lapiz{
+        height: 600px;
+    }
     
+    body{
+    margin: 0% 2% 0% 0%;
+    
+    }
 }
     
 
