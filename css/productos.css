@@ -179,7 +179,13 @@ span{
     height: 200px;
 }
 
-
+@media (max-width: 490px){
+    .productos{
+        background-color: black;
+    }
+    
+}
+    
 
 .hoja {
     background-color: mediumorchid;
