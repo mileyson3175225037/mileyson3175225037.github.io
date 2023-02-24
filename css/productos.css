@@ -179,6 +179,8 @@ span{
     height: 200px;
 }
 
+/* aqui biene un media cueri para que se adate bien a los computadores*/
+
 @media (max-width: 490px){
 
     .productos{
@@ -186,15 +188,29 @@ span{
     }
 
     .lapiz{
-        height: 800px;
+        height: 600px;
     }
     
     body{
     margin: 0% 0% 0% 0%;
     
     }
+    .cardimagenes{
+        width: 110px;
+        height: auto;
+        
+    }
+    .tamañodeimagenes{
+        width: 109px;
+        height: 100px;
+    }
+    .cardparrafo{
+        width: 110px;
+        height: 100px;
+    }
 }
     
+/* aqui termina la mediacure */
 
 .hoja {
     background-color: mediumorchid;
@@ -282,6 +298,7 @@ span{
   font-size: 20px;
   text-align: center; 
   margin-top: 0%;
+  margin-bottom: 0px;
 }
 
 
