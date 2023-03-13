@@ -185,6 +185,7 @@ span{
 
     .productos{
         background-color: black;
+        margin: 4px 0px 4px 0px;
     }
 
     .lapiz{
@@ -196,16 +197,16 @@ span{
     
     }
     .cardimagenes{
-        width: 220px;
+        width: 165px;
         height: auto;
         
     }
     .tamañodeimagenes{
-        width: 218px;
+        width: 164px;
         height: 200px;
     }
     .cardparrafo{
-        width: 220px;
+        width: 165px;
         height: 200px;
     }
 }
