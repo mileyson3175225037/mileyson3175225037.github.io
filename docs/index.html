@@ -1,217 +1,164 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link  rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
-  <title>Variedades de productos</title>
-  <link rel="stylesheet" href="documento/estilo.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/electronica.jpg" type="image/x-icon">
+    <title>tienda de componentes eléctricos</title>
+    <link rel="stylesheet" href="css/productos.css">
 </head>
 <body>
- <header>
-     
-    <h1>amazon afiliado</h1>
-    <div class="computador" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" 
-    preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 
-    500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(241, 237, 249);"></path></svg></div>
+ <header class="cuaderno">
+    <h1 class="milon">te damos la bienvenida a nuestra tienda de electrónica</h1>
+    <p>numero de contacto 3175225037</p>
  </header>
- 
-  <main>
+   <!--aqui bamos aponer una section del contenedor donde va el audio y los link al contato del vendedor-->
+ <section class="celular">
+    <h2 class="milonelmejor">reproduce el audio y conoce más sobre los servicios que les ofrecemos</h2>
+ <div class="blog">
+    <div class="computador"><audio controls >
+      <source src="audio/audioreparado.mp3" type="audio/mp3">
+      tu navegador no es compatible con este audio
+    </audio>
+    </div>
+    <!-- este es un menu de navegacion con enlace a llamada y whatsapp-->
+    <nav class="tubo">
+      <a href="tel:+573175225037" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="tubo1" 
+        src="imagenes/telefono2.png" alt=""></a>
+    </nav>  
+    <nav class="tubo2">
+      <a href="https://api.whatsapp.com/send?phone=3175225037&text=Hola-quisiera-saber-más-de-estos-productos" 
+       target="_blank" rel="noopener noreferrer"><img loading="lazy"
+        class="tubo1" src="imagenes/whatsapp2.png" alt=""></a>
+    </nav>
+    <!-- qui termina nuestro menu de navegacion-->
+ </div>  
+</section>
+<!--aqui biene nuestro contenedor para los diferentes productos-->
 
-    <!--aqui biene otra section para navegar los  diferentes productos-->
-  <section>
-   <h2>menú de navegación de los diferentes productos</h2> 
-    <nav class="elmejor">
-        <div class="cuaderno">
-         <div class="lis1">
-          <div class="tubo"> <a class="toldillo" href="#tomate-1">Silla</a></div>
-          <div class="tubo"> <a class="toldillo" href="#tomate-2">Licuadora</a></div>
-          <div class="tubo"> <a class="toldillo" href="#tomate-3">Horno electrico</a></div>
-          <div class="tubo"> <a class="toldillo" href="#tomate-4">Ventilador</a></div>
-          <div class="tubo"> <a class="toldillo" href="#tomate-5">Celular</a></div>
-          <div class="tubo"> <a class="toldillo" href="#tomate-6">Pailas antiadherente</a></div>
+<main class="lapicero">
+<section>
+  <h3 class="milonelmejor">productos disponibles a buen precio</h3>
+  <!--aqui bienen todas las card del proyecto para visualizar cada uno de los produtos que se muestran -->
+    
+      <div class="productos"> 
+        <div class="cardimagenes">
+          <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/diodos1.jpg" alt=""></div>
+          <p>diodos <span>500 $</span></p>
         </div>
-        <div class="lis2">
-          <div class="tubo"> <a class="toldillo" href="#tomate-7">Picador de verdura </a></div>
-          <div class="tubo"> <a class="toldillo" href="#tomate-8">Computador</a></div>
-          <div class="tubo"> <a class="toldillo" href="#tomate-9">Televisor</a></div>
-          <div class="tubo"> <a class="toldillo" href="#tomate-10">Play 4</a></div>
-          <div class="tubo"> <a class="toldillo" href="#tomate-11">Olla multiuso</a></div>
-          <div class="tubo"> <a class="toldillo" href="#tomate-12">Disco duro solido</a></div>
+        <div class="cardimagenes">
+          <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/transistor1.jpg" alt=""></div>
+          <p>transistor <span>2.000 $</span></p>
+        </div>
+        <div class="cardimagenes">
+          <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/capasitor.jpg" alt=""> 
+        </div>
+          <p>capasitores <span>4.000 $</span></p>
+        </div>
+        <div class="cardimagenes">
+          <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" 
+             src="imagenes/sircuitosintegrado1.jpg" alt=""></div>
+          <p>sircuitos integrado <span>4.000 $</span></p>
+        </div>
+        <div class="cardimagenes">
+          <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/resistencia.jpg" alt=""> 
+          </div>
+          <p>resistencia <span>2.000 $</span></p>
+        </div>
+        <div class="cardimagenes">
+          <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/fusible2.jpg" alt=""></div>
+          <p>fusible <span>2.000 $</span></p>
+        </div>
+        <div class="cardimagenes">
+          <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/potenciometro2.jpg" alt=""> 
+          </div>
+          <p>potenciometro <span>5.000 $</span></p>
+        </div>
+        <div class="cardimagenes">
+          <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/rele2.jpg" alt=""></div>
+          <p>rele <span>20.000 $</span></p>
+        </div>
+        <div class="cardimagenes">
+          <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/termistor1.jpg" alt=""> 
+          </div>
+          <p>termistore <span>3.000 $</span></p>
+        </div>
+        <div class="cardimagenes">
+          <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/diodosled1.jpg" alt=""> 
+          </div>
+          <p>diodos led <span>500 $</span></p>
         </div>
       </div>
-    </nav>
-    <div class="contenedor">
-
-          <!--aqui va un contenedor el cual llevara unas imagen-->
-         
-       <div id="tomate-1" class="televisor">
-          <img class="impresora" src="imagenes/sillas2.png" alt="">
-           <p>si quieres saber sobre el precio ve a amazon</p>
-          <nav class="celular">
-
-            <p>  <a  href="https://www.amazon.com/-/es/Amazon-Basics-Classic-Puresoft-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20reposabrazos/dp/B081H3Y5NW/ref=sxin_14_cpf_saw-CPFPecos-dsk-lmlk-asin?content-id=amzn1.sym.0f1b45b9-2ef3-+++++++++++++++449d-8dec-0cc7749915dc%3Aamzn1.sym.0f1b45b9-2ef3-449d-8dec-+++++++++++++++0cc7749915dc&crid=3PZOZPTSMIG60&cv_ct_cx=cfhairs&keywords=chairs&pd_rd_i=B081H3Y5NW&pd_rd_r=7f9e134f-2fed-+++++++++++++++4a4b-851e-2cb686a5a1cb&pd_rd_w=hiQpA&pd_rd_wg=SKKJt&pf_rd_p=0f1b45b9-2ef3-449d-8dec-+++++++++++++++0cc7749915dc&pf_rd_r=RH3Z01TATZBXF06KA3NQ&qid=1670168026&sprefix=sillas%2Caps%2C472&sr=1-1-88bb4e7b-fb79-+++++++++++++++43dc-9dec-6da196f88672&th=1 " target="_blank" rel="noopener noreferrer" >ir a amazon</a></p>
-          </nav>    
-        </div>
-         <div id="tomate-2" class="televisor">
-          <img class="impresora" src="imagenes/licuadora2.png" alt="">
-          <p>si quieres saber sobre el precio ve a amazon</p>
-         <nav class="celular">
-
-            <p> <a href="https://www.amazon.com/-/es/Hamilton-Beach-Power-licuadora-multifunci%C3%B3n-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Licuadora/dp/B00EI7DPI0/ref=shtr_1_2?%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=blender&qid=1670176402&sr=82- " target="_blank" rel="noopener noreferrer" >ir a amazon</a></p>
-             
-            </nav> 
-       </div>
-       <div id="tomate-3" class="televisor">
-        <img class="impresora" src="imagenes/horno1.png" alt="">
-        <p>si quieres saber sobre el precio ve a amazon</p>
-       <nav class="celular">
-
-          <p> <a href="https://www.amazon.com/-/es/tostador-asador-Cuisinart-TOB-40N-cl%C3%A1sico/dp/B004JMZGM2/ref=sr_1_19?crid=2IB0OGT3JRXPH&keywords=electric%2Boven&qid=1676677099&sprefix=horno%2B%2Caps%2C795&sr=8-19&th=1" target="_blank" rel="noopener noreferrer">ir a amazon</a></p>
-           
-       </nav> 
-     </div>
-     <div id="tomate-4" class="televisor">
-      <img class="impresora" src="imagenes/ventilador2.png" alt="">
-      <p>si quieres saber sobre el precio ve a amazon</p>
-     <nav class="celular">
-
-        <p> <a href="https://www.amazon.com/-/es/BLACK-DECKER-Ventilador-pulgadas-control/dp/B06W2LC7C6/ref=sr_1_6?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2T1H574GHC8F9&keywords=Fan&qid=1670185312&sprefix=ventilador%2Caps%2C697&sr=8-6&th=1" target="_blank" rel="noopener noreferrer">ir a amazon</a></p>
-         
-     </nav> 
-   </div>
-   <div id="tomate-5" class="televisor">
-    <img class="impresora" src="imagenes/celular2.png" alt="">
-    <p>si quieres saber sobre el precio ve a amazon</p>
-   <nav class="celular">
-
-      <p> <a href="https://www.amazon.com/-/es/Smartphone-Desbloqueado-desarrollada-conjuntamente-Hasselblad/dp/B07XM54RWB/ref=sr_1_15?crid=38GRGMKSS6ODY&keywords=celulares%2Biphone&qid=1670258168&sprefix=celular%2Caps%2C453&sr=8-15&th=1" target="_blank" rel="noopener noreferrer">ir a amazon</a></p>
-   </nav>
-
-  </div>
-  <div id="tomate-6" class="televisor">
-    <img class="impresora" src="imagenes/paila2.png" alt="">
-    <p>si quieres saber sobre el precio ve a amazon</p>
-   <nav class="celular">
-
-      <p> <a href="https://www.amazon.com/-/es/SENSARTE-antiadherente-revestimiento-utensilios-saludable/dp/B086PHS2V8/ref=sr_1_4?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=nonstick+pans&qid=1670185768&s=instant-video&sr=1-4-catcorr" target="_blank" rel="noopener noreferrer">ir a amazon</a></p>
-   </nav>
-
-  </div>
-  <div id="tomate-7" class="televisor">
-    <img class="impresora" src="imagenes/picador2.png" alt=""> 
-    <p>si quieres saber sobre el precio ve a amazon</p>
-   <nav class="celular">
-
-      <p> <a href="https://www.amazon.com/-/es/Vegetable-Chopper-Picadora-verduras-gris/dp/B0BJPPS9X7/ref=sr_1_8?crid=2NM2O4DM821EO&keywords=vegetable+and+vegetable+chopper&qid=1670254634&sprefix=picador+de%2Caps%2C945&sr=8-8" target="_blank" rel="noopener noreferrer">ir a amazon</a></p>
-   </nav>
-
-  </div>
-  <div id="tomate-8" class="televisor">
-    <img class="impresora" src="imagenes/computador2.png" alt=""> 
-    <p>si quieres saber sobre el precio ve a amazon</p>
-   <nav class="celular">
-
-      <p> <a href="https://www.amazon.com/-/es/Microsoft-Surface-Laptop-Quad-Core-i5-1035G1/dp/B0BG6J92DC/ref=sr_1_20?crid=37C0Z5ESBTJQW&keywords=laptop%2Bcomputer&qid=1670255432&sprefix=comutador%2Bla%2Caps%2C496&sr=8-20&th=1" target="_blank" rel="noopener noreferrer">ir a amazon</a></p>
-   </nav>
-
-  </div>
-  <div id="tomate-9" class="televisor">
-    <img class="impresora" src="imagenes/televisor2.png" alt=""> 
-    <p>si quieres saber sobre el precio ve a amazon</p>
-   <nav class="celular">
-
-      <p> <a href="https://www.amazon.com/-/es/TCL-Class-720p-Smart-Roku/dp/B09YWT3P5Q/ref=sr_1_2?crid=2NTSDVS05EWF9&keywords=smart+tv+32&qid=1670256258&sprefix=televisor+sma%2Caps%2C444&sr=8-2" target="_blank" rel="noopener noreferrer">ir a amazon</a></p>
-   </nav>
-
-  </div>
-  <div id="tomate-10" class="televisor">
-    <img class="impresora" src="imagenes/play4.png" alt="">
-    <p>si quieres saber sobre el precio ve a amazon</p>
-   <div class="celular">
-
-      <p> <a href="https://www.amazon.com/-/es/Sony-PlayStation-Pro-1TB-Console-4/dp/B07K14XKZH/ref=sr_1_2?crid=36RYVE6RN2SOA&keywords=playstation+4&qid=1670256714&sprefix=play%2Caps%2C674&sr=8-2" target="_blank" rel="noopener noreferrer">ir a amazon</a></p>
-    </div>
-
-  </div>
-  <div id="tomate-11" class="televisor">
-    <img class="impresora" src="imagenes/ollamultiuso.png" alt=""> 
-    <p>si quieres saber sobre el precio ve a amazon</p>
-   <nav class="celular">
-
-      <p> <a href="https://www.amazon.com/-/es/Instant-Pot-IP-DUO60-6cuartos-1000W/dp/B00FLYWNYQ/ref=sr_1_3?crid=1ZK1ZBYHQQ7N1&keywords=multipurpose+electric+pots&qid=1670257035&sprefix=ollas+mul%2Caps%2C831&sr=8-" target="_blank" rel="noopener noreferrer">ir a amazon</a></p>
-   </nav>
-
-  </div>
-  <div id="tomate-12" class="televisor">
-    <img class="impresora" src="imagenes/discodurosolido.png" alt="">
-    <p>si quieres saber sobre el precio ve a amazon</p>
-   <nav class="celular">
-
-      <p> <a href="https://www.amazon.com/Kingston-SSD-repuesto-aumentar-rendimiento/dp/B01N0TQPQB/ref=sr_1_1_sspa?crid=ILTI2ODTYR9E&keywords=500%2Bgb%2Bsolid%2Bhard%2Bdrive&qid=1670257431&sprefix=disco%2Bduro%2Bsolido%2B5%2Caps%2C424&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUzFOUTFCR0ZHSFlCJmVuY3J5cHRlZElkPUEwMjU0ODkzN08xNTVCVFFKRjNJJmVuY3J5cHRlZEFkSWQ9QTA2MTU3NzEzT0oyNzM1WUROTzNPJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1" target="_blank" rel="noopener noreferrer">ir a amazon</a></p>
-   </nav>
-
-  </div>
-</div>
+    
+  <!--aqui termina nuestra card y empieza el otro contenedor pero todo esta dentrol de una section-->    
+      
 </section>
 
-  <!-- aqui vamos a poner un audio que se reprodusca al hacer clit-->
-
-<section>
-  <h3>
-    productos de buena calidad.
-  </h3>
-  
-   <div class="peineta">
-    
-   <p>puedes reproducir el audio para conocer mas sobre la pagina web.</p>
-     <div class="audio1">
-      <audio controls >
-        <source src="audio/audio1.mp3" type="audio/mp3">
-        tu navegador no es compatible con este audio
-      </audio>
-  
-     </div>
-  </div>
+ <!--aqui se va a poner otras section el cual lleva un parrafo y una himagen de ador de la paghina web-->
+ <section>
+   <h4 class="milonelmejor">los mejores productos a su disposición</h4>
+    <div class="hoja">
+     <div class="ventilador"><img loading="lazy" class="imagenbombillo" src="imagenes/bombillo.png" alt=""></div>
+     <div class="parlante"><img loading="lazy" class="parlante2" src="imagenes/electronica.jpg" alt=""></div>
+   </div> 
  </section>
-</main>
-  
-  <!--aqui empisa nuestro footer o pies de la pagina web-->
-  
-  
-<footer>
-  <nav class="cuaderno2">
-    <div class="lis1">
-      <div class="tubo"> <a class="toldillo" href="https://www.amazon.com/-/es/Amazon-Basics-Classic-Puresoft-reposabrazos/dp/B081H3Y5NW/ref=sxin_14_cpf_saw-CPFPecos-dsk-lmlk-asin?content-id=amzn1.sym.0f1b45b9-2ef3-449d-8dec-0cc7749915dc%3Aamzn1.sym.0f1b45b9-2ef3-449d-8dec-0cc7749915dc&crid=3PZOZPTSMIG60&cv_ct_cx=cfhairs&keywords=chairs&pd_rd_i=B081H3Y5NW&pd_rd_r=7f9e134f-2fed-4a4b-851e-2cb686a5a1cb&pd_rd_w=hiQpA&pd_rd_wg=SKKJt&pf_rd_p=0f1b45b9-2ef3-449d-8dec-0cc7749915dc&pf_rd_r=RH3Z01TATZBXF06KA3NQ&qid=1670168026&sprefix=sillas%2Caps%2C472&sr=1-1-88bb4e7b-fb79-43dc-9dec-6da196f88672&th=1" target="_blank" rel="noopener noreferrer">Silla</a></div>
 
-      <div class="tubo"> <a class="toldillo" href="https://www.amazon.com/-/es/Hamilton-Beach-Power-licuadora-multifunci%C3%B3n-Licuadora/dp/B00EI7DPI0/ref=shtr_1_2?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=blender&qid=1670176402&sr=82-" target="_blank" rel="noopener noreferrer">Licuadora</a></div>
-
-      <div class="tubo"> <a class="toldillo" href="https://www.amazon.com/-/es/tostador-asador-Cuisinart-TOB-40N-cl%C3%A1sico/dp/B004JMZGM2/ref=sr_1_19?crid=2IB0OGT3JRXPH&keywords=electric%2Boven&qid=1676677099&sprefix=horno%2B%2Caps%2C795&sr=8-19&th=1" target="_blank" rel="noopener noreferrer">Horno electrico</a></div>
-
-      <div class="tubo"> <a class="toldillo" href="https://www.amazon.com/-/es/BLACK-DECKER-Ventilador-pulgadas-control/dp/B06W2LC7C6/ref=sr_1_6?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2T1H574GHC8F9&keywords=Fan&qid=1670185312&sprefix=ventilador%2Caps%2C697&sr=8-6&th=1" target="_blank" rel="noopener noreferrer">Ventilador</a></div>
-
-      <div class="tubo"> <a class="toldillo" href="https://www.amazon.com/-/es/Smartphone-Desbloqueado-desarrollada-conjuntamente-Hasselblad/dp/B07XM54RWB/ref=sr_1_15?crid=38GRGMKSS6ODY&keywords=celulares%2Biphone&qid=1670258168&sprefix=celular%2Caps%2C453&sr=8-15&th=1" target="_blank" rel="noopener noreferrer">Celular</a></div>
-
-      <div class="tubo"> <a class="toldillo" href="https://www.amazon.com/-/es/SENSARTE-antiadherente-revestimiento-utensilios-saludable/dp/B086PHS2V8/ref=sr_1_4?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=nonstick+pans&qid=1670185768&s=instant-video&sr=1-4-catcorr" target="_blank" rel="noopener noreferrer">Pailas antiadherente</a></div>
+  <!-- aqui biene otra section o contenedor de produtos -->
+  <section >
+    <h5 class="milonelmejor">elementos de trabajo para la electrónica</h5>
+     <div class="productos" >
+      <div class="cardimagenes">
+        <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/memoriausb1.jpg" alt=""></div>
+        <p>memoria usb <span>27.000 $</span></p>
+      </div>
+      <div class="cardimagenes">
+        <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/multimetro1.jpg" alt=""></div>
+        <p>multimetro <span>65.000 $</span></p>
+      </div>
+      <div class="cardimagenes">
+        <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/kitsoldador1.jpg" alt=""> 
+        </div>
+        <p>kit soldador <span>85.000 $</span></p>
+      </div>
+      <div class="cardimagenes">
+        <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/cautil3.jpg" alt=""></div>
+        <p>cautil <span>35.000 $</span></p>
+      </div>
+      <div class="cardimagenes">
+        <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/desoldador.jpg" alt=""></div>
+        <p>desoldador <span>22.000 $</span></p>
+      </div>
+      <div class="cardimagenes">
+        <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/pelacable2.jpg" alt=""></div>
+        <p>pela cable <span>20.000 $</span></p>
+      </div>
+      <div class="cardimagenes">
+        <div class="cardparrafo"><img loading="lazy" class="tamañodeimagenes" src="imagenes/soldadura2.png" alt=""> 
+        </div>
+        <p>soldadura <span>18.000 $</span></p>
+      </div>
     </div>
-   <div class="lis2">
-      <div class="tubo"> <a class="toldillo" href="https://www.amazon.com/-/es/Vegetable-Chopper-Picadora-verduras-gris/dp/B0BJPPS9X7/ref=sr_1_8?crid=2NM2O4DM821EO&keywords=vegetable+and+vegetable+chopper&qid=1670254634&sprefix=picador+de%2Caps%2C945&sr=8-8" target="_blank" rel="noopener noreferrer">Picador de verdura</a></div>
-
-      <div class="tubo"> <a class="toldillo" href="https://www.amazon.com/-/es/Microsoft-Surface-Laptop-Quad-Core-i5-1035G1/dp/B0BG6J92DC/ref=sr_1_20?crid=37C0Z5ESBTJQW&keywords=laptop%2Bcomputer&qid=1670255432&sprefix=comutador%2Bla%2Caps%2C496&sr=8-20&th=1" target="_blank" rel="noopener noreferrer">Computador</a></div>
-
-      <div class="tubo"> <a class="toldillo" href="https://www.amazon.com/-/es/TCL-Class-720p-Smart-Roku/dp/B09YWT3P5Q/ref=sr_1_2?crid=2NTSDVS05EWF9&keywords=smart+tv+32&qid=1670256258&sprefix=televisor+sma%2Caps%2C444&sr=8-2" target="_blank" rel="noopener noreferrer">Televisor</a></div>
-
-      <div class="tubo"> <a class="toldillo" href="https://www.amazon.com/-/es/Sony-PlayStation-Pro-1TB-Console-4/dp/B07K14XKZH/ref=sr_1_2?crid=36RYVE6RN2SOA&keywords=playstation+4&qid=1670256714&sprefix=play%2Caps%2C674&sr=8-2" target="_blank" rel="noopener noreferrer">Play 4</a></div>
-
-      <div class="tubo"> <a class="toldillo" href="https://www.amazon.com/-/es/Instant-Pot-IP-DUO60-6cuartos-1000W/dp/B00FLYWNYQ/ref=sr_1_3?crid=1ZK1ZBYHQQ7N1&keywords=multipurpose+electric+pots&qid=1670257035&sprefix=ollas+mul%2Caps%2C831&sr=8-" target="_blank" rel="noopener noreferrer">Olla multiuso</a></div>
-
-      <div class="tubo"> <a class="toldillo" href="https://www.amazon.com/Kingston-SSD-repuesto-aumentar-rendimiento/dp/B01N0TQPQB/ref=sr_1_1_sspa?crid=ILTI2ODTYR9E&keywords=500%2Bgb%2Bsolid%2Bhard%2Bdrive&qid=1670257431&sprefix=disco%2Bduro%2Bsolido%2B5%2Caps%2C424&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUzFOUTFCR0ZHSFlCJmVuY3J5cHRlZElkPUEwMjU0ODkzN08xNTVCVFFKRjNJJmVuY3J5cHRlZEFkSWQ9QTA2MTU3NzEzT0oyNzM1WUROTzNPJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1" target="_blank" rel="noopener noreferrer">Disco duro solido</a></div>
-  </div>
-</nav>
-</footer>
-
-</body>
+  </section>
+  <!--aqui termina toda las secion de mi pagina web-->
+</main>
+ <footer>
+   <section>
+    <h6 class="milonelmejor">resumen de la página web</h6>
+    <div class="lapiz">
+      <div class="colornegro">
+     <h6 class="cargador">descricion</h6>
+        <p>
+          Esta página web está construida con el fin de vender componentes eléctricos y otros artículos, que sirva para 
+          las personas que les guste o tengan la profesión de electrónicos, mediante a esto. Hemos creado esta pagina 
+          web para que puedan comprar los diferentes componentes y a si realizar sus proyectos  
+        </p>
+     </div>
+      <div class="colorazul">
+          <img loading="lazy" class="hombre" src="imagenes/hombretelefono.png" alt="">
+     </div>
+    </div> 
+   </section>
+  </footer>
+ </body>
 </html>
