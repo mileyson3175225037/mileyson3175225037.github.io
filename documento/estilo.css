@@ -529,16 +529,16 @@ p {
    }
    .televisor{
     width: 165px;
-    height: 230px;
+    height: 240px;
   
   }
    .impresora {
     width: 165px;
-    height:130px;
+    height:140px;
    }
+   
    .celular{
     height: 25px;
-    
-   }
+  }
 
 }
