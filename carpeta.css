@@ -300,9 +300,19 @@ body {
     }
     
     .div-que-lleva-imagenes{
-        margin-top: 9px;
+        margin-bottom: 9px;
+        height: 125px;
     }
+    
+    .dentro-del-baner-contenedor{
+        width: 95%;
 
+    }
+    
+    .tamaño-de-imagendel-contenedor-div{
+      
+        width: 95%;
+    }
 
     }
     
