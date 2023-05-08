@@ -201,7 +201,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    margin-top: 144px;
+    margin-top: 100px;
     margin-bottom: 10px;
     display: flex;
     border-style: solid;
@@ -276,10 +276,6 @@ body {
 
     @media (max-width: 500px){
 
-     body{
-        background-color: black;
-     }
-
     .div-de-imagen{
        width: 97%;
        height: 320px;
@@ -291,7 +287,24 @@ body {
     }
     
 
-    }   
+    } 
+    
+
+    /* este es el media cueri para que mi pagina web se adate a los celulares */
+
+
+    @media (max-width: 490px){
+        
+    .dentro-del-baner {
+        width: 165px;
+    }
+    
+    .div-que-lleva-imagenes{
+        margin-top: 9px;
+    }
+
+
+    }
     
     /* aqui va una section el cual lleva una imagen de fondo */
 
