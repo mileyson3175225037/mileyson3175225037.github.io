@@ -129,7 +129,7 @@ body {
     border-radius: 10px;
 }    
 
-.parrafo-para-div{
+.parrafo-para-div {
     background-color: rgb(0, 255, 98);
     height: 40px;
     width: 100%;
@@ -299,9 +299,8 @@ body {
         width: 165px;
     }
     
-    .div-que-lleva-imagenes{
-        margin-bottom: 9px;
-        height: 125px;
+    .div-que-lleva-imagenes2{
+        margin-bottom: 12px;
     }
     
     .dentro-del-baner-contenedor{
@@ -312,6 +311,26 @@ body {
     .tamaño-de-imagendel-contenedor-div{
       
         width: 95%;
+    }
+
+    body {
+        margin: 0px;
+    }
+
+    .section-cuerpo-pagina{
+        width: 100%;
+    }
+
+    .contenedor-baner{
+        width: 100%;
+    }
+
+    .misection{
+        width: 100%;
+    }
+
+    .parrafo-para-div{
+        width: 85%;
     }
 
     }
