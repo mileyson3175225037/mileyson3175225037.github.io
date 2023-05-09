@@ -330,15 +330,13 @@ body {
         border-radius: 0px;
     }
      
-    .decoracion-de-enlace{
-        width: 85%;
-    }
-    .parrafo-para-div{
-        width: 85%;
-    }
 
     .contenedor-div-pies-de-pagina{
         border-radius: 0px;
+    }
+
+    .navegador-de-productos{
+        width: 85%;
     }
 
     }
