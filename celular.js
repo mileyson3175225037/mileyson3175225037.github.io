@@ -1,0 +1,1 @@
+var arroz = document.getElementsByTagName("p")
